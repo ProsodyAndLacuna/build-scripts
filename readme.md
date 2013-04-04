@@ -17,3 +17,9 @@ data in the format
     ?,x,y
 
 NOTE: The value in the first column doesn't value
+
+## Output
+
+Both the `generate.sh` and `generate-from-blendfile.sh` create a gzipped
+JSON object representing a computed DeJong render. This file can be read
+by the `libdedong` Ruby Gem.
